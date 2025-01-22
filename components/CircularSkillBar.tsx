@@ -81,7 +81,7 @@ const CircularSkillBar: React.FC<CircularSkillBarProps> = ({
     return (
         <div
             ref={circleRef}
-            className="group flex flex-col items-center justify-center p-2 md:p-6 dark:bg-gray-800 bg-transparent dark:bg-opacity-20 md:bg-white md:shadow-lg rounded-md hover:shadow-xl transition-shadow duration-300"
+            className="group flex flex-col items-center justify-center p-2 md:p-6 dark:bg-none md:dark:bg-gray-800 bg-transparent dark:bg-opacity-20 md:bg-white md:shadow-lg rounded-md hover:shadow-xl transition-shadow duration-300"
         >
             <div className="relative w-48 h-48"> {/* Increased from w-36 h-36 */}
                 {/* Decorative background elements */}

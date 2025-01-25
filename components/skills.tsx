@@ -41,7 +41,7 @@ export default function Skills() {
 
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-12 gap-y-0 md:gap-y-12 max-w-5xl mx-auto">
                         <CircularSkillBar percentage={80} skillName="React" lightcolor="#DC2626" darkcolor="#60A5FA" />
-                        <CircularSkillBar percentage={60} skillName="TypeScript" lightcolor="#1E40AF" darkcolor="#FBBF24" />
+                        <CircularSkillBar percentage={60} skillName="MongoDB" lightcolor="#1E40AF" darkcolor="#FBBF24" />
                         <CircularSkillBar percentage={75} skillName="Express.js" lightcolor="#065F46" darkcolor="#34D399" />
                     </div>
                 </div>
@@ -51,8 +51,8 @@ export default function Skills() {
             <div className="grid grid-cols-1 md:grid-cols-2 w-full mb-[50px] p-5 gap-y-4 text-sm">
                 <div className='flex flex-col px-3 gap-[2px]'>
                     <h3 className='w-full flex px-1 justify-between'>
-                        <span className='uppercase'>MOngoDb</span>
-                        <span className='font-semibold'>70%</span>
+                        <span className='uppercase'>Typescript</span>
+                        <span className='font-semibold'>50%</span>
                     </h3>
                     <Progress value={70} color='indigo' size='sm' placeholder={undefined} />
                 </div>

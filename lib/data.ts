@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import BlogImage from "@/public/blogapp.png";
 import youtubeImage from "@/public/youtube.png";
 import Studynotion from "@/public/studynotion.png";
+import WelthImage from "@/public/wealth.png";
 
 export const links = [
   {
@@ -33,8 +34,6 @@ export const links = [
   },
 ] as const;
 
-
-
 export const projectsData = [
   {
     title: "Blog App",
@@ -42,7 +41,14 @@ export const projectsData = [
     //   "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     description:
       " Developed a Blog App using React, Redux Toolkit, and Tailwind for the front-end, with Appwrite as the backend for real-time authentication. Implemented efficient state management and responsive design for a seamless user experience",
-    tags: ["React", "Node.js", "Express.js", "AppWrite", "Tailwind", "Redux Toolkit"],
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "AppWrite",
+      "Tailwind",
+      "Redux Toolkit",
+    ],
     imageUrl: BlogImage,
   },
   {
@@ -55,12 +61,21 @@ export const projectsData = [
     imageUrl: youtubeImage,
   },
   {
-    title: "Study Notion",
+    title: "Welth",
     // description:
     //   "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    description: "Introducing Study Notion: the ultimate course platform. Educators design and manage courses effortlessly; students explore, enroll, and access content easily. Enjoy user-friendly interface for enhanced learning.",
-    tags: ["React", "Axios", "Node.Js", "MongoDB", "Razorpay", "Express.Js"],
-    imageUrl: Studynotion,
+    description:
+      "Built a comprehensive finance management app allowing users to create multiple business accounts, view expense distributions via pie charts, and track transactions. Integrated AI-powered receipt scanning for seamless transaction updates.",
+    tags: [
+      "NextJs",
+      "arcjet",
+      "SupaBase",
+      "Inngest",
+      "Resend",
+      "Shadcn",
+      "Zod",
+    ],
+    imageUrl: WelthImage,
   },
 ] as const;
 
@@ -71,5 +86,5 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Leaf Let",
-  "AppWrite"
+  "AppWrite",
 ] as const;
